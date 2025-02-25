@@ -10,7 +10,7 @@ export default {
 
 <template>
 	<!-- <h1>{{ title }}</h1> -->
-	<div class="w-full h-[350px] overflow-hidden">
+	<div class="h-[350px] overflow-hidden">
 		<div
 			class="flex justify-between items-center bg-[#343434] text-[#f7fff7] p-4"
 		>

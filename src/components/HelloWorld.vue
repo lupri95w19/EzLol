@@ -36,7 +36,7 @@ const count = ref(0);
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
   <p class="text-3xl font-bold underline">prova</p> -->
 
-	<div></div>
+	<div id="appNotHeader">ciao</div>
 </template>
 
 <style scoped>
