@@ -13,9 +13,43 @@
 					</p>
 				</div>
 
-                <!-- Cards -->
-                 
-                
+				<!-- Cards -->
+
+				<div class="max-w-sm rounded overflow-hidden shadow-lg">
+					<img
+						class="w-full"
+						src="../../public/league-of-legends-lol-dio-re-garen-sfondo-3750x3000_34.jpg"
+						alt="Garen god-king"
+					/>
+                    <!-- Contenitore di tutto il testo -->
+					<div class="">
+
+                        <!-- Contiene il titolo della card -->
+						<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6">
+							<a
+								href="#"
+								class="font-bold text-xl text-center text-[20px]"
+								>Basi del gioco</a
+							>
+						</div>
+
+                        <!-- Contiene le informazioni della card -->
+						<div class="mx-6">
+							<p class="text-[#000000] text-base mb-2">
+								Qui troverete le informazioni basilari per imparare a giocare.
+							</p>
+							<p class="text-[#000000]">
+								Comprende le informazioni sulla laning phase.
+							</p>
+						</div>
+					</div>
+					<div class="px-6 pt-4 pb-2">
+						<span
+							class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+							>#laningphase</span
+						>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
