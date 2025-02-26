@@ -12,8 +12,11 @@ import Header from './components/Header.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div> -->
-  <Header />
-  <HelloWorld msg="Vite + Vue" />
+
+
+  <!-- <Header />
+  <HelloWorld msg="Vite + Vue" /> -->
+  <router-view />
 </template>
 
 <style scoped>

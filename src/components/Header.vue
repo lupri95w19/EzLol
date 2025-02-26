@@ -12,14 +12,15 @@ export default {
 	<!-- <h1>{{ title }}</h1> -->
 	<div class="h-[350px] overflow-hidden">
 		<div
-			class="flex justify-between items-center bg-[#343434] text-[#f7fff7] p-4"
+			class="flex justify-between items-center bg-[#343434] text-[#f7fff7] p-4 h-[100px] px-8"
 		>
-			<a href="#" class="text-[32px]">Ez+ LoL</a>
-			<div class="grid grid-cols-2 gap-4 text-[20px]">
-				<a href="#">Home</a>
-				<a href="#">Su di me</a>
+			<a href="#" class="text-[32px] hover:shadow-red-800 textHover transition-all">Ez+ LoL</a>
+			<div class="grid grid-cols-2 gap-0 text-[20px]">
+				<a href="#" class="textHover transition-all">Home</a>
+				<a href="#" class="textHover transition-all">Su di me</a>
 			</div>
 		</div>
-		<img src="../../public/Banner-Qq7bNmtVH-transformed.jpeg" alt="" />
+		<!-- Immagine da mettere dinamica dopo -->
+		<img src="../../public/Banner-Qq7bNmtVH-transformed.jpeg" alt="" /> 
 	</div>
 </template>
