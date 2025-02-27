@@ -21,6 +21,6 @@ export default {
 			</div>
 		</div>
 		<!-- Immagine da mettere dinamica dopo -->
-		<img src="../../public/Banner-Qq7bNmtVH-transformed.jpeg" alt="" /> 
+		<img src="/Banner-Qq7bNmtVH-transformed.jpeg" alt="" /> 
 	</div>
 </template>
