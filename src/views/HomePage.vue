@@ -3,25 +3,25 @@
 		<Header />
 		<!-- <div class="w-screen bg-[#949E9D]"> -->
 		<div class="bg-[#949E9D]">
-			<div class="container xl mx-auto py-8">
+			<div class="max-w-screen-lg mx-auto py-8">
 				<div>
 					<h1 class="text-3xl font-bold text-[#000000] text-[44px] mb-4">
 						Ez+ LoL
 					</h1>
-					<p class="text-[27px] mb-4 text-[#000000]">
+					<p class="text-2xl mb-4 text-[#000000]">
 						La guida più semplice e veloce per imparare tutte le basi del gioco
 						e per iniziare a giocare al meglio!
 					</p>
 				</div>
 
 				<!-- Cards -->
-				<div class="grid grid-cols-3">
+				<div class="grid grid-cols-3 mt-16">
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover object-left"
+							class="w-full h-[300px] object-cover object-left"
 							src="/league-of-legends-lol-dio-re-garen-sfondo-3750x3000_34.jpg"
 							alt="Garen"
 						/>
@@ -56,17 +56,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover object-right"
+							class="w-full h-[300px] object-cover object-right"
 							src="/1182002.jpg"
 							alt="Yasuo"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>I ruoli</a
 								>
@@ -96,17 +98,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover"
+							class="w-full h-[300px] object-cover"
 							src="/wp3774206.jpg"
 							alt="Aurelion Sol"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>Classi</a
 								>
@@ -132,17 +136,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover"
+							class="w-full h-[300px] object-cover"
 							src="/wallpapersden.com_heimerdinger-in-league-of-legends_2932x2932.jpg"
 							alt="Heimerdinger"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>Crafting</a
 								>
@@ -172,17 +178,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover"
+							class="w-full h-[300px] object-cover"
 							src="/Dark-Star-Karma.jpg"
 							alt="Karma"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>Mentalità</a
 								>
@@ -212,17 +220,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover"
+							class="w-full h-[300px] object-cover"
 							src="/2761734.jpg"
 							alt="Pyke"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>LFG?</a
 								>
@@ -253,17 +263,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover"
+							class="w-full h-[300px] object-cover"
 							src="/Wallpaper_Kayle_Morgana_Base.jpg"
 							alt="Kayle e Morgana"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>Le modalità</a
 								>
@@ -291,17 +303,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover object-right"
+							class="w-full h-[300px] object-cover object-right"
 							src="/riot-games-michal-ivan-kog-maw-urgot-vel-koz-viktor-cho-gath.jpg"
 							alt="Viktor"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>Incantesimi</a
 								>
@@ -329,17 +343,19 @@
 
 					<!-- Singola card -->
 					<div
-						class="max-w-sm rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
 					>
 						<img
-							class="w-full h-[500px] object-cover object-right"
+							class="w-full h-[300px] object-cover object-right"
 							src="/238c3a1aaa2aec35366691673a348bdb.jpg"
 							alt="Ryze"
 						/>
 						<!-- Contenitore di tutto il testo -->
 						<div class="">
 							<!-- Contiene il titolo della card -->
-							<div class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]">
+							<div
+								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
+							>
 								<a href="#" class="font-bold text-xl text-center text-[20px]"
 									>Siti utili</a
 								>
@@ -370,13 +386,15 @@
 				</div>
 			</div>
 		</div>
+		<Footer />
 	</div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
-	components: { Header },
+	components: { Header, Footer },
 };
 </script>
