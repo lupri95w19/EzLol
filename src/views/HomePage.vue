@@ -7,6 +7,7 @@ export default {
 	methods: {
 		openLink(url) {
 			this.$router.push(url);
+			// Oppure si poteva fare direttamente sul template @click="$router.push('/basics')"
 		},
 	},
 };
