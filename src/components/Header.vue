@@ -12,7 +12,7 @@ export default {
 	<!-- <h1>{{ title }}</h1> -->
 	<div class="grid grid-rows-4 h-[350px] overflow-hidden">
 		<div
-			class="row-span-1 flex justify-between items-center bg-[#343434] text-[#f7fff7] p-4 h-[100px] px-8"
+			class="row-span-1 flex justify-between items-center bg-[#343434] text-[#f7fff7] p-4 h-[100px] px-8 z-1"
 		>
 			<a
 				href="/"
