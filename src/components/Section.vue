@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-	<div class="grid grid-cols-12 w-[30vw] m-auto pt-16 pb-8">
+	<div class="grid grid-cols-12 w-[30vw] m-auto pt-32 pb-8">
 		<div class="col-span-4 m-6 bg-[#073B3A]">
 			<h2 class="p-4 py-6 text-lg font-bold">
 				<a
