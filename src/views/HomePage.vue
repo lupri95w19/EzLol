@@ -1,3 +1,17 @@
+<script>
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
+
+export default {
+	components: { Header, Footer },
+	methods: {
+		openLink(url) {
+			this.$router.push(url);
+		},
+	},
+};
+</script>
+
 <template>
 	<div>
 		<Header />
@@ -18,7 +32,8 @@
 				<div class="grid grid-cols-3 mt-16">
 					<!-- Singola card -->
 					<div
-						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						@click="openLink('/basics')"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white cursor-pointer"
 					>
 						<img
 							class="w-full h-[300px] object-cover object-left"
@@ -31,7 +46,9 @@
 							<div
 								class="mb-2 py-4 m-0 bg-[#6693A6] flex justify-center px-6 transition-all duration-700 ease-in-out hover:shadow-[inset_0_0_40px_20px_rgba(0,0,0,1)]"
 							>
-								<a href="#" class="font-bold text-xl text-center text-[20px]"
+								<a
+									href="/basics"
+									class="font-bold text-xl text-center text-[20px]"
 									>Basi del gioco</a
 								>
 							</div>
@@ -389,12 +406,3 @@
 		<Footer />
 	</div>
 </template>
-
-<script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-
-export default {
-	components: { Header, Footer },
-};
-</script>
