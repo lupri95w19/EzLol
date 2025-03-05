@@ -74,7 +74,7 @@ export default {
 
 					<!-- Singola card -->
 					<div
-						class="max-w-[250px] rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white cursor-pointer" @click="openLink('/roles')"
 					>
 						<img
 							class="w-full h-[300px] object-cover object-right"
