@@ -5,10 +5,26 @@ import Basics from "../views/Basics.vue";
 import Roles from "../views/Roles.vue";
 
 const routes = [
-	{ path: "/", component: HomePage },
-	{ path: "/about", component: About },
-	{ path: "/basics", component: Basics },
-	{ path: "/roles", component: Roles },
+	{
+		path: "/",
+		component: HomePage,
+		meta: { title: "Home" },
+	},
+	{
+		path: "/about",
+		component: About,
+		meta: { title: "Su di me" },
+	},
+	{
+		path: "/basics",
+		component: Basics,
+		meta: { title: "Basi" },
+	},
+	{
+		path: "/roles",
+		component: Roles,
+		meta: { title: "Ruoli" },
+	},
 ];
 
 const router = createRouter({

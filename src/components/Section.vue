@@ -13,7 +13,7 @@ export default {
 		<div class="col-span-4 m-6 bg-[#073B3A]">
 			<h2 class="p-4 py-6 text-lg font-bold">
 				<a
-					href=""
+					href="/basics"
 					class="hover:text-[#F7D488] transition-all duration-300 ease-in-out textHover"
 					>Basi del gioco</a
 				>
@@ -22,7 +22,7 @@ export default {
 		<div class="col-span-4 m-6 bg-[#073B3A]">
 			<h2 class="p-4 py-6 text-lg font-bold">
 				<a
-					href=""
+					href="/roles"
 					class="hover:text-[#F7D488] transition-all duration-300 ease-in-out textHover"
 					>I ruoli</a
 				>
