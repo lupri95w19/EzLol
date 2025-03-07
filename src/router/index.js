@@ -3,6 +3,7 @@ import HomePage from "../views/HomePage.vue";
 import About from "../views/About.vue";
 import Basics from "../views/Basics.vue";
 import Roles from "../views/Roles.vue";
+import Classes from "../views/Classes.vue";
 
 const routes = [
 	{
@@ -24,6 +25,11 @@ const routes = [
 		path: "/roles",
 		component: Roles,
 		meta: { title: "Ruoli" },
+	},
+	{
+		path: "/classes",
+		component: Classes,
+		meta: { title: "Classi" },
 	},
 ];
 
