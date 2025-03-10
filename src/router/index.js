@@ -4,6 +4,7 @@ import About from "../views/About.vue";
 import Basics from "../views/Basics.vue";
 import Roles from "../views/Roles.vue";
 import Classes from "../views/Classes.vue";
+import Crafting from "../views/Crafting.vue";
 
 const routes = [
 	{
@@ -30,6 +31,11 @@ const routes = [
 		path: "/classes",
 		component: Classes,
 		meta: { title: "Classi" },
+	},
+	{
+		path: "/crafting",
+		component: Crafting,
+		meta: { title: "Crafting" },
 	},
 ];
 

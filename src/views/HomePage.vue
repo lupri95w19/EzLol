@@ -158,7 +158,7 @@ export default {
 
 					<!-- Singola card -->
 					<div
-						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white" @click="openLink('/crafting')"
 					>
 						<img
 							class="w-full h-[300px] object-cover"
