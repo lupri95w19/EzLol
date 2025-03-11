@@ -10,7 +10,8 @@ export default {
 					"/wallpapersden.com_lee-sin-hd-league-of-legends_1920x1080.jpg",
 				"/roles": "/2139004.jpg",
 				"/classes": "/league-of-legends-06.jpg",
-				"/crafting": "/thumb-1920-864277.jpg" 
+				"/crafting": "/thumb-1920-864277.jpg",
+				"/mental": "/600528.jpg",
 			};
 			// Ritorna il banner corrispondente alla pagina, altrimenti un'immagine di default
 			return bannerImages[this.$route.path] || "/default-banner.jpg";

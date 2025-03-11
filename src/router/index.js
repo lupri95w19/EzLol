@@ -5,6 +5,7 @@ import Basics from "../views/Basics.vue";
 import Roles from "../views/Roles.vue";
 import Classes from "../views/Classes.vue";
 import Crafting from "../views/Crafting.vue";
+import Mental from "../views/Mental.vue";
 
 const routes = [
 	{
@@ -36,6 +37,11 @@ const routes = [
 		path: "/crafting",
 		component: Crafting,
 		meta: { title: "Crafting" },
+	},
+	{
+		path: "/mental",
+		component: Mental,
+		meta: { title: "Mental" },
 	},
 ];
 

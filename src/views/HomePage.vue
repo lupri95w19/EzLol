@@ -9,8 +9,11 @@ export default {
 	},
 	methods: {
 		openLink(url) {
-			this.$router.push(url);
-			// Oppure si poteva fare direttamente sul template @click="$router.push('/basics')"
+			if (url.startsWith("http")) {
+				window.open(url, "_blank"); // Apri link esterno in una nuova scheda
+			} else {
+				this.$router.push(url); // Cambia vista interna con Vue Router
+			}
 		},
 	},
 };
@@ -120,7 +123,8 @@ export default {
 
 					<!-- Singola card -->
 					<div
-						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white cursor-pointer" @click="openLink('/classes')"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white cursor-pointer"
+						@click="openLink('/classes')"
 					>
 						<img
 							class="w-full h-[300px] object-cover"
@@ -158,7 +162,8 @@ export default {
 
 					<!-- Singola card -->
 					<div
-						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white" @click="openLink('/crafting')"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg ms-0 mb-32 w-full hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						@click="openLink('/crafting')"
 					>
 						<img
 							class="w-full h-[300px] object-cover"
@@ -201,6 +206,7 @@ export default {
 					<!-- Singola card -->
 					<div
 						class="max-w-[250px] rounded overflow-hidden shadow-lg m-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						@click="openLink('/mental')"
 					>
 						<img
 							class="w-full h-[300px] object-cover"
@@ -243,6 +249,11 @@ export default {
 					<!-- Singola card -->
 					<div
 						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						@click="
+							openLink(
+								'https://www.facebook.com/LeagueOfLegendsItaly/?locale=it_IT'
+							)
+						"
 					>
 						<img
 							class="w-full h-[300px] object-cover"
