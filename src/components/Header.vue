@@ -12,6 +12,7 @@ export default {
 				"/classes": "/league-of-legends-06.jpg",
 				"/crafting": "/thumb-1920-864277.jpg",
 				"/mental": "/600528.jpg",
+				"/modes": "/jax-league-of-legends-wallpaper-hd-1920x1080-171032.jpg",
 			};
 			// Ritorna il banner corrispondente alla pagina, altrimenti un'immagine di default
 			return bannerImages[this.$route.path] || "/default-banner.jpg";

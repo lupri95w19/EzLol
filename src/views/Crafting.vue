@@ -12,7 +12,7 @@ export default {
 	<Header />
 	<div class="bg-[#949E9D]">
 		<div class="max-w-screen-lg mx-auto py-8">
-			<h1 class="text-3xl font-bold text-[#000000] text-[44px] mb-4">Ruoli</h1>
+			<h1 class="text-3xl font-bold text-[#000000] text-[44px] mb-4">Crafting</h1>
 			<p class="text-2xl mb-6 text-[#000000]">
 				Quando parliamo di crafting su LoL, parliamo di Capsule Campione, Skin,
 				Skin per lumi, Gettoni maestria per i campioni, Eterni, Icone, Emoticon

@@ -6,6 +6,7 @@ import Roles from "../views/Roles.vue";
 import Classes from "../views/Classes.vue";
 import Crafting from "../views/Crafting.vue";
 import Mental from "../views/Mental.vue";
+import Modes from "../views/Modes.vue";
 
 const routes = [
 	{
@@ -41,7 +42,12 @@ const routes = [
 	{
 		path: "/mental",
 		component: Mental,
-		meta: { title: "Mental" },
+		meta: { title: "Mentalità" },
+	},
+	{
+		path: "/modes",
+		component: Modes,
+		meta: { title: "Modalità" },
 	},
 ];
 
