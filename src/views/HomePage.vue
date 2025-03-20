@@ -227,7 +227,7 @@ export default {
 							<!-- Contiene le informazioni della card -->
 							<div class="mx-6">
 								<p class="text-[#000000] text-base mb-2">
-									Qui troverete tutte i consigli per mantenere la calma.
+									Qui troverete tutte i consigli per mantenere la calma, un must.
 								</p>
 								<p class="text-[#000000]">
 									Comprende i miei consigli personali per rimanere calmi.
@@ -321,8 +321,7 @@ export default {
 									modalità.
 								</p>
 								<p class="text-[#000000]">
-									Comprende le informazioni sulle modalità più importanti e non
-									su quelle a rotazione.
+									Comprende le informazioni sulle modalità più importanti.
 								</p>
 							</div>
 						</div>
@@ -376,7 +375,7 @@ export default {
 
 					<!-- Singola card -->
 					<div
-						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white"
+						class="max-w-[250px] rounded overflow-hidden shadow-lg me-0 ms-auto mb-32 w-100 hover:scale-105 transition-all hover:shadow-[0_0_30px_7px_rgba(0,0,0,0.5)] bg-white" @click="openLink('/utils')"
 					>
 						<img
 							class="w-full h-[300px] object-cover object-right"
@@ -400,7 +399,7 @@ export default {
 									Qui troverete alcuni siti e programmi utili.
 								</p>
 								<p class="text-[#000000]">
-									Novizi o veterani? Non fa differenza, questi siti e queste app
+									Novizi o veterani? Questi siti e queste app
 									aiutano sempre e comunque.
 								</p>
 							</div>

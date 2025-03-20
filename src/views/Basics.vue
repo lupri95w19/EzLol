@@ -24,7 +24,7 @@ export default {
 				In League of Legends ci sono vari aspetti che bisogna padroneggiare il
 				prima possibile, questi aspetti verranno spiegati in questa pagina.
 			</p>
-			<h2 class="text-3xl font-bold text-[#000000] text-[44px] mt-14 mb-4">
+			<h2 class="text-3xl font-bold text-[#000000] text-[44px] mt-14 mb-4 relative before:content-[''] before:bg-[#DD6031] before:inline-block before:w-[10px] before:h-[60px] before:mr-2 before:align-middle">
 				Fase di Corsia
 			</h2>
 			<p class="text-2xl mb-2 text-[#000000]">
@@ -37,7 +37,9 @@ export default {
 				Campioni nemici, i Minions e le Torri.
 			</p>
 
-			<h3 class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4">
+			<h3
+				class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4 relative before:content-[''] before:bg-[#31ddb2] before:inline-block before:w-[10px] before:h-[40px] before:mr-2 before:align-middle"
+			>
 				Minion
 			</h3>
 			<p class="text-2xl mb-2 text-[#000000]">
@@ -62,8 +64,10 @@ export default {
 				con i campioni nemici, i minion permettono un vantaggio in gold
 				incredibile!
 			</p>
-			<h3 class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4">
-				Torri
+			<h3
+				class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4 relative before:content-[''] before:bg-[#31ddb2] before:inline-block before:w-[10px] before:h-[40px] before:mr-2 before:align-middle"
+			>
+				Minion
 			</h3>
 			<p class="text-2xl mb-2 text-[#000000]">
 				Le torri sono degli obiettivi presenti in TOP, MID e BOT.
@@ -89,8 +93,10 @@ export default {
 				alleati vicini.
 			</p>
 
-			<h3 class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4">
-				Inibitore
+			<h3
+				class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4 relative before:content-[''] before:bg-[#31ddb2] before:inline-block before:w-[10px] before:h-[40px] before:mr-2 before:align-middle"
+			>
+				Minion
 			</h3>
 			<div class="grid grid-cols-12 place-items-center mb-4">
 				<p class="text-2xl text-[#000000] col-span-6">
@@ -110,9 +116,10 @@ export default {
 				Minion, nella corsia dove l’Inibitore è distrutto, e verrà rigenerato
 				dopo 5 minuti.
 			</p>
-
-			<h3 class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4">
-				Nexus
+			<h3
+				class="text-xl font-bold text-[#000000] text-[24px] mt-14 mb-4 relative before:content-[''] before:bg-[#31ddb2] before:inline-block before:w-[10px] before:h-[40px] before:mr-2 before:align-middle"
+			>
+				Minion
 			</h3>
 			<div class="grid grid-cols-12 place-items-center mb-4">
 				<p class="text-2xl text-[#000000] col-span-6">
@@ -132,7 +139,7 @@ export default {
 				distrutto.
 			</p>
 
-			<h2 class="text-3xl font-bold text-[#000000] text-[44px] mt-18 mb-4">
+			<h2 class="text-3xl font-bold text-[#000000] text-[44px] mt-14 mb-4 relative before:content-[''] before:bg-[#DD6031] before:inline-block before:w-[10px] before:h-[60px] before:mr-2 before:align-middle">
 				Extra: Invade
 			</h2>
 			<p class="text-2xl mb-2 text-[#000000]">
@@ -145,7 +152,7 @@ export default {
 				partita.
 			</p>
 
-			<h2 class="text-3xl font-bold text-[#000000] text-[44px] mt-18 mb-4">
+			<h2 class="text-3xl font-bold text-[#000000] text-[44px] mt-14 mb-4 relative before:content-[''] before:bg-[#DD6031] before:inline-block before:w-[10px] before:h-[60px] before:mr-2 before:align-middle">
 				Extra: Guida sulla fase di corsia
 			</h2>
 			<p class="text-2xl mb-2 text-[#000000]">

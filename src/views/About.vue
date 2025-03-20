@@ -18,7 +18,12 @@
 						<p class="text-xl">
 							<i class="italic">Ez+ </i>
 							LoL nasce come progetto per la materia “Web Design” insegnata dal
-							prof. <i class="underline">Ciro Esposito</i>.
+							prof.
+							<a
+								href="https://www.abacatania.it/elenco-professori/ciro-esposito/"
+								class="underline"
+								>Ciro Esposito</a
+							>.
 						</p>
 						<p class="text-xl mt-8">
 							League of Legends è un gioco molto complicato e complesso, quindi
@@ -32,6 +37,14 @@
 						</p>
 						<p class="text-xl mt-8">
 							Qui sotto troverete le guide per imparare le basi del gioco:
+						</p>
+						<p class="text-xl mt-24 font-bold">
+							Attenzione questo progetto era stato inizialmente realizzato
+							utilizzando HTML, CSS, JavaScript e jQuery, questa versione è
+							stata realizzata utilizzando i framework Vue e Taildiwnd.
+						</p>
+						<p class="text-xl mt-4 font-bold">
+							La parte responsive non è stata fatta.
 						</p>
 					</div>
 				</div>

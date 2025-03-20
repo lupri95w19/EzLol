@@ -8,6 +8,7 @@ import Crafting from "../views/Crafting.vue";
 import Mental from "../views/Mental.vue";
 import Modes from "../views/Modes.vue";
 import Summoners from "../views/Summoners.vue";
+import Utils from "../views/Utils.vue";
 
 const routes = [
 	{
@@ -54,6 +55,11 @@ const routes = [
 		path: "/summoners",
 		component: Summoners,
 		meta: { title: "Incantesimi" },
+	},
+	{
+		path: "/utils",
+		component: Utils,
+		meta: { title: "Siti utili" },
 	},
 ];
 

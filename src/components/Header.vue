@@ -13,7 +13,8 @@ export default {
 				"/crafting": "/thumb-1920-864277.jpg",
 				"/mental": "/600528.jpg",
 				"/modes": "/jax-league-of-legends-wallpaper-hd-1920x1080-171032.jpg",
-				"/summoners": "/zed-league-of-legends-7c-1920x1080.jpg"
+				"/summoners": "/zed-league-of-legends-7c-1920x1080.jpg",
+				"/utils": "/wallpapersden.com_pyke-league-of-legends_1920x1080.jpg",
 			};
 			// Ritorna il banner corrispondente alla pagina, altrimenti un'immagine di default
 			return bannerImages[this.$route.path] || "/default-banner.jpg";
